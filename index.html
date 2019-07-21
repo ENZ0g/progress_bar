@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Progressbar</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <div class="container" style="margin-top: 30px">
+            <div class='progress' style="height: 30px">
+                <div class="progress-bar progress-bar-striped             bg-success"
+                     role="progressbar"
+                     style="width: 30%; height: 30px">
+                    <span></span>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 20px;">
+                    <button type="button" class="btn btn-secondary btn-success" id='btn1'>+ 1%</button>
+                    <button type="button" class="btn btn-secondary btn-warning" id='btn3'>+ 3%</button>
+                    <button type="button" class="btn btn-secondary btn-danger" id='btn7'>+ 7%</button>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: 20px;">
+                    <button type="button" class="btn btn-secondary btn-success" id='btn_1'>- 1%</button>
+                    <button type="button" class="btn btn-secondary btn-warning" id='btn_3'>- 3%</button>
+                    <button type="button" class="btn btn-secondary btn-danger" id='btn_7'>- 7%</button>
+                </div>
+            </div>
+        </div>
+        <script src='js/progress_bar_script.js'></script>
+    </body>
+</html>
